@@ -1,0 +1,67 @@
+.inputbar {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+}
+
+.barspace {
+     width: 50%;
+     border: 2px solid black
+}
+
+.bar {
+     width: 100%;
+     height: 40px;
+     font-size: 20px;
+     font-weight: 700;
+}
+
+.btn {
+     width: 50px;
+     border-radius: none;
+     font-size: 20px;
+     font-weight: 900;
+     border: 2px solid black
+}
+
+.taskeval {
+     margin-top: 30px;
+     display: flex;
+     justify-content: space-around;
+
+}
+
+.shape {
+     width: 40%;
+     height: 60vh;
+     display: flex;
+     flex-direction: column;
+     overflow: auto;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.todoheading {
+     text-align: center;
+     padding: 5px;
+     font-size: 20px;
+     font-weight: 600;
+     border-bottom: 3px solid black;
+}
+
+.completebtn {
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+}
+
+.completebutton {
+     background-color: rgb(205, 198, 198);
+     border: none;
+     height: 30px;
+     border-radius: 20px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border: 1px solid rgb(158, 155, 155);
+}
